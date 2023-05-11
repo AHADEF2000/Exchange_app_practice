@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+/*the html and body elements are set to height: 100% to ensure that the body fills the entire height of the viewport. */
+
+body {
+    font-family: Tahoma, Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exchang-app {
+    flex: 1;
+    /* make the div fill the available space */
+    max-width: 600px;
+    /* set a maximum width for the div */
+    align-self: center;
+    /* center the div vertically */
+    justify-self: center;
+    /* center the div horizontally */
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.exchang-app h1 {
+    margin: 0;
+    background-color: #009896;
+    color: #eee;
+    padding: 10px;
+}
+
+.price {
+    padding: 20px;
+    background-color: #f9f9ce;
+}
+
+.price .amount {
+    margin-bottom: 20px;
+}
+
+.amount .the-amount {
+    margin-bottom: 10px;
+}
+
+.amount input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 5px;
+    margin-left: 5px;
+    background-color: #ececd9;
+}
+
+.amount button {
+    background-color: #009896;
+    color: #eee;
+    border: 1px solid #009896;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 5px;
+}
+
+.price .rates {
+    text-align: left;
+}
+
+.egp-symbol {
+    display: none;
+}
+
+.qar-symbol {
+    display: none;
+}
+
+.qar-symbol.Finised-qar {
+    display: inline-block;
+}
+
+.egp-symbol.Finised-egp {
+    display: inline-block;
+}

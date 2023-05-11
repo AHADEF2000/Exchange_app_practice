@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="exchang-app">
+        <h1>Exchange App</h1>
+        <div class="price">
+            <div class="amount">
+                <div class="the-amount">
+                    <label for="amount-input">Enter The Amount in USD:</label>
+                    <input type="number" id="amount-input" step="0.01" min="0" max="100000"> USD
+                </div>
+                <button id="submit-btn" type="button">Submit</button>
+            </div>
+            <div class="egp"> The price in Egyptian Pound: <span></span> <span class="egp-symbol"> EGP </span> </div>
+            <div class="qar"> The price in Qatari Riyal: <span></span> <span class="qar-symbol"> QAR </span> </div>
+
+            <div class="rates">
+                <p>The Egyptian Pound = <span class="egp-rate"></span> EGP </p>
+                <p>The Qatari Ryial = <span class="qar-rate"></span> QAR </p>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
